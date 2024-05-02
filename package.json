@@ -1,0 +1,31 @@
+{
+  "name": "venkatesh_certum_assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeruguVenkatesh2766/Venkatesh_Certum_Assessment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeruguVenkatesh2766/Venkatesh_Certum_Assessment/issues"
+  },
+  "homepage": "https://github.com/MeruguVenkatesh2766/Venkatesh_Certum_Assessment#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.2",
+    "nodemon": "^3.1.0",
+    "twilio": "^5.0.4"
+  }
+}
